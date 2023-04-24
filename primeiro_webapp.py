@@ -8,7 +8,6 @@ app = Flask(__name__)
 @app.route("/")
 #Ao acessar essa rota a função abaixo é executada e ela devolve (return) o texto "Deu certo!"
 def exibir_mensagem():
-    print("Onde aparece?")
     return "Deu certo!"
 
 #A linha abaixo executa a aplicação web que foi criada a paritir do flask
